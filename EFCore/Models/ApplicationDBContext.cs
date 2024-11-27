@@ -13,5 +13,7 @@ namespace EFCore.Models
         // LINQ  --> conversion DBset --> SQL  -> exec
         // Entity <Employee>
         public DbSet<Employee> Employees { get; set; }
+
+        public DbSet<User> Users { get; set; }
     }
 }
